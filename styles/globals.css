@@ -1,0 +1,70 @@
+body {
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+    font-family: Proxima Nova;
+}
+
+.cosmicColor {
+    color: #961A88;
+}
+
+.cosmicBackColor {
+    background-color: #EEE1F0;
+}
+
+.cosmicstripColor {
+    background-color: #961A88;
+    color: white;
+}
+
+.classicColor {
+    color: #191978;
+}
+
+.classicBackColor {
+    background-color: #E9EEF6;
+}
+
+.classicStripColor {
+    background-color: #191978;
+    color: white;
+}
+
+.atomicColor {
+    color: #00AEB1;
+}
+
+.atomicBackColor {
+    background-color: #EAF9F7;
+}
+
+.atomicStripColor {
+    background-color: #00AEB1;
+    color: white;
+}
+
+.latestResults {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.headingStyles {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

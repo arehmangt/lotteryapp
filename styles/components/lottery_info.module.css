@@ -1,0 +1,55 @@
+.roundedNumbers {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+}
+
+.applyBorders {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.previousWinningticket {
+    width: 36px;
+    height: 36px;
+}
+
+.fontStyleOfRoundNumber {
+    font-size: 12px;
+}
+
+.winnigPotStyle {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lucki {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.024px;
+}
+
+.winningPot {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nextDraw {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px;
+}
+
+.time {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
