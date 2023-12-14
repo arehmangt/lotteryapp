@@ -4,7 +4,7 @@ import styles from "@/styles/components/lottery_info.module.css";
 import CustomButton from "./button";
 import Image from "next/image";
 import TimeComponent from "./time";
-import SvgComponent from "./svgComponent";
+import SvgComponent from "./svg_component";
 import WinningPot from "./winning_pot";
 
 const LotteryInfo = ({ lottery, handleSubmitPlay }) => {
