@@ -6,8 +6,11 @@ const PoolInfo = (props) => {
   return (
     <div className="px-3 py-2">
       <div className={`${styles.roundedNumbers} pb-2`}>Current Pool Status</div>
-      {lotteryData.poolAmount.map((item) => (
-        <div className="d-flex justify-content-between align-items-center ">
+      {lotteryData.poolAmount.map((item, i) => (
+        <div
+          key={i}
+          className="d-flex justify-content-between align-items-center "
+        >
           <Image
             src={
               item.coinSymbol === "INAE"

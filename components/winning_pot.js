@@ -9,7 +9,10 @@ const WinningPot = (props) => {
         {lotteryData.previousWinningticket?.map((item, i) => {
           if (i <= 4) {
             return (
-              <div className="d-flex justify-content-between align-items-center">
+              <div
+                key={i}
+                className="d-flex justify-content-between align-items-center"
+              >
                 <div className={styles.winningPot}>
                   {lotteryData?.roundNumber}
                 </div>

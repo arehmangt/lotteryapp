@@ -19,6 +19,7 @@ const LotteryInfo = ({ lottery, handleSubmitPlay }) => {
         const lotteryData = lot.data;
         return (
           <div
+            key={index}
             className={`mx-auto my-2 ${styles.applyBorders} ${
               lotteryData.lotteryName === "COSMIC"
                 ? "cosmicBackColor"
